@@ -1,0 +1,21 @@
+{
+  "name": "scheduler-server",
+  "version": "1.0.0",
+  "description": "the server for the schlesinger-scheduler app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "schedule"
+  ],
+  "author": "kim schlesinger",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
