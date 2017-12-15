@@ -1,6 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const hobbies = require('./data/hobbies');
 const app = express();
+
+app.use(cors())
 
 app.get('/', (req, res) => res.json(hobbies))
 
