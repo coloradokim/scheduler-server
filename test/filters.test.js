@@ -33,9 +33,4 @@ describe('Filters', () => {
       })
     })
   })
-  describe('#()', () => {
-    xit('', () => {
-      assert.equal(filters.test('hi'), 'hi')
-    })
-  })
 })
